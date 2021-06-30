@@ -38,8 +38,8 @@ void loop() {
 
   // Si está pulsado
   if (valor == HIGH){
-        //Genera un numero aleatorio entre 1 y 9
-    int randomNumber = random(1,9);
+    //Genera un numero aleatorio entre 1 y 6 ya que un dado tiene seis caras, aunque podríamos hacerlo de 9.
+    int randomNumber = random(1,6);
 
     // Ponemos los pines en estado correcto para mostrar el número randomNumber
     for (int e = 0; e < 8; e++)
